@@ -229,6 +229,7 @@ void ShowMessDetails()
     printf("\n\t -----------------------------------\n");
 
     totalDeposit = 0;
+    totalMeal = 0;
     for(i=0; i<memberIndex; i++)
     {
         totalMeal += member[i].meal;
